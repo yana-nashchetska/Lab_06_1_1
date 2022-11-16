@@ -12,11 +12,10 @@ namespace UnitTest611
 		
 		TEST_METHOD(TestMethod1)
 		{
-			int test;
-			const int n = 23;
-			int r[n];
-			test = Sum(r, n);
-				Assert::AreEqual(test, 0);
+			int S = 0;
+			int r[10] = { -1, 3, 7, 2, -4, 5, 4, 5, 5, 3 };
+			int t = Sum(r, 10);
+				Assert::AreEqual(t, 30);
 		}
 	};
 }

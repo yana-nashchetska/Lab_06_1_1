@@ -1,3 +1,5 @@
+// ╡репюж╡имхи яоня╡а
+
 #include <iostream> 
 #include <iomanip> 
 #include <time.h> 
